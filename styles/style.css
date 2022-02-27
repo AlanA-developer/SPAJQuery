@@ -1,0 +1,30 @@
+@import url('../node_modules/materialize-css/dist/css/materialize.min.css');
+@import url('../node_modules/normalize.css/normalize.css');
+@import url('../node_modules/animate.css/animate.min.css');
+
+body {
+    font-size: xx-large;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.header_menu_item {
+    cursor: pointer;
+}
+
+.container_home {
+    display: flex;
+    flex-wrap: wrap;
+}
